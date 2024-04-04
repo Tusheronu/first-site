@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #202020;
+}
+
+
+header{
+    padding: 10px 5%;
+    background-color:rgba(50, 50, 50, 0.7);
+}
+header>*{
+    display: inline-block;
+    width:450px;
+}
+.void{
+    width:30%;
+}
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin:0 10px;
+}
+header>h2{
+    color: white;
+}
+main{
+    color: white;
+}
+main>h1{
+    font-size: 50px;
+    text-align: center;
+}
+.first{
+    display: inline-block;
+    width: 70%;
+    flex-direction: row;
+    
+}
+.rast{
+    width: 30px;
+}
+.html{
+    display: inline-block;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+}
+rrr{
+    display: block;
+    flex-direction: row-reverse;
+
+    text-align: center;
+}
